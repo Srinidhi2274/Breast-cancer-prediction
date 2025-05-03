@@ -2,6 +2,23 @@
 
 This project applies **Logistic Regression**, a supervised machine learning algorithm, to predict whether a breast tumor is malignant or benign using clinical diagnostic data. The model is trained on historical labeled data and evaluated using standard classification metrics.
 
+## 🧪 Data Preprocessing
+
+1. **Column Removal:**
+   - Removed irrelevant columns such as patient ID or unnamed columns that do not contribute to prediction.
+
+2. **Label Encoding:**
+   - Converted the `diagnosis` column:
+     - `M` (Malignant) → `1`
+     - `B` (Benign) → `0`
+
+3. **Feature Scaling:**
+   - Used `StandardScaler` to normalize all features so they have a mean of 0 and standard deviation of 1.
+   - Helps improve performance of gradient-based models like logistic regression.
+
+4. **Train-Test Split:**
+   - Split the dataset into training and testing sets using an 80:20 ratio to evaluate generalization performance.
+
 ## 📊 Model Performance
 
 The model is evaluated using the following metrics:
