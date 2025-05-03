@@ -24,7 +24,7 @@ These metrics were calculated on both the training and test sets to ensure gener
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Srikeerthibandi/Breast-cancer-prediction.git
+   git clone https://github.com/Srinidhi2274/Breast-cancer-prediction.git
    cd breast-cancer-prediction
    ```
 
